@@ -32,3 +32,4 @@ You can join the project's Discord server: https://discord.gg/PtCqXzHp64
 
 OpenMeatBoy is released as open source software under the GPL v3 license, see the LICENSE.md file in the project root for the full license text.
 
+OpenMeatBoy uses external libraries with different licenses, you can check them in the external folder.
