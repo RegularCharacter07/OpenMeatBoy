@@ -7,9 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 option(SMB_BUILD_TESTS "Build tests" ON)
 option(SMB_BUILD_MODS  "Build mods" ON)
 
-find_package(Vulkan REQUIRED)
+find_package(OpenGL REQUIRED)
 add_subdirectory(external/SDL3)
 add_subdirectory(external/glm)
+add_subdirectory(external/glad)
 
 add_subdirectory(engine)
 add_subdirectory(game)
