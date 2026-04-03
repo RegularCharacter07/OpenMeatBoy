@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "glm",
+    "opengl",
+    "sdl3"
+  ]
+}

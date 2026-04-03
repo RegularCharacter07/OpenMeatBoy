@@ -14,8 +14,8 @@ I'm warning you now that this project may never be finished. I'm doing it for fu
 
 - Clone the code.
 - Install Visual Studio 2026.
+- You need to have vcpkg.
 - Open the OpenMeatBoy folder in Visual Studio.
-
 
 
 # Documentation
@@ -28,8 +28,8 @@ You can find the documentation in the docs folder; it's incomplete but will be u
 Contributions are always welcome, whether it's help with the source code, documentation of the game files, or anything else.
 
 You can join the project's Discord server: https://discord.gg/PtCqXzHp64
+
+
 # License
 
 OpenMeatBoy is released as open source software under the GPL v3 license, see the LICENSE file in the project root for the full license text.
-
-OpenMeatBoy uses external libraries with different licenses, you can check them in the external folder.
