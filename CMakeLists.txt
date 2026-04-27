@@ -1,12 +1,10 @@
-cmake_minimum_required(VERSION 3.20)
-project(OpenMeatBoy)
+﻿cmake_minimum_required (VERSION 3.10)
 
-set(CMAKE_CXX_STANDARD 20)
+if (POLICY CMP0141)
+  cmake_policy(SET CMP0141 NEW)
+  set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
+endif()
 
-find_package(OpenGL REQUIRED)
-find_package(SDL3 REQUIRED)
-find_package(glm REQUIRED)
-add_library(glad external/glad/src/glad.c)
-target_include_directories(glad PUBLIC external/glad/include)
+project ("OpenMeatBoy")
 
-add_subdirectory(src)
+add_subdirectory ("OpenMeatBoy")
