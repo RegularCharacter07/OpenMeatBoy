@@ -4,22 +4,22 @@ These files contain different variables for each of the playable characters.
 
 ## General Explanations
 
-> The file is in little endian.
+The file is in little endian.
 
-> This file contains three types of properties:
+This file contains three types of properties:
 - Player Properties.
 - Animation Properties.
 - Effect Properties.
 
-> Player Properties contains the variables of the character's physics (such as speed, gravity, etc.).
+Player Properties contains the variables of the character's physics (such as speed, gravity, etc.).
 
-> Animation Properties contains the X and Y position variables for the character's animations (such as Idle, Walk, Run, etc.).
+Animation Properties contains the X and Y position variables for the character's animations (such as Idle, Walk, Run, etc.).
 
-> Effect Properties contains the X and Y position variables for character effects (such as splash, slide, etc.), it also has an S variable (probably speed).
+Effect Properties contains the X and Y position variables for character effects (such as splash, slide, etc.), it also has an S variable (probably speed).
 
-> There are two types of this file, some are complete and others are incomplete because they are missing information (the incomplete ones are found in unused characters like `dumbmeatboy.props`).
+There are two types of this file, some are complete and others are incomplete because they are missing information (the incomplete ones are found in unused characters like `dumbmeatboy.props`).
 
-> Complete files begin with `06 00 00 00` and incomplete files begin with `04 00 00 00`.
+Complete files begin with `06 00 00 00` and incomplete files begin with `04 00 00 00`.
 
 ## Data (complete files)
 
