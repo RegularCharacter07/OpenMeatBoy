@@ -32,6 +32,7 @@ Complete files begin with `06 00 00 00` and incomplete files begin with `04 00 0
 - Wall Friction (Player Property) `Float32`.
 - Drag (Player Property) `Float32`.
 - Gravity (Player Property) `Float32`.
+- Scale (Player Property) `Float32`.
 - Tile Bounds (Player Property) `Float32`.
 - Kill Bounds (Player Property) `Float32`.
 - Idle Offset X (Animation Property) `Float32`.
