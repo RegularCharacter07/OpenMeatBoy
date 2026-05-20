@@ -83,7 +83,7 @@ Complete files begin with `06 00 00 00` and incomplete files begin with `04 00 0
 - Air Shock Offset X (Animation Property) `Float32`.
 - Air Shock Offset Y (Animation Property) `Float32`.
 - Land Offset X (Effect Property) `Float32`.
-- Land Offset X (Effect Property) `Float32`.
+- Land Offset Y (Effect Property) `Float32`.
 - Land Offset S (Effect Property) `Float32`.
 - Jump Offset X (Effect Property) `Float32`.
 - Jump Offset Y (Effect Property) `Float32`.
