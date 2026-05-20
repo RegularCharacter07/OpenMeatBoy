@@ -72,8 +72,8 @@ Complete files begin with `06 00 00 00` and incomplete files begin with `04 00 0
 - End Level Offset Y (Animation Property) `Float32`.
 - J. Airbrake Offset X (Animation Property) `Float32`.
 - J. Airbrake Offset Y (Animation Property) `Float32`.
-- F. Airbrake X (Animation Property) `Float32`.
-- F. Airbrake Y (Animation Property) `Float32`.
+- F. Airbrake Offset X (Animation Property) `Float32`.
+- F. Airbrake Offset Y (Animation Property) `Float32`.
 - Up Slant Offset X (Animation Property) `Float32`.
 - Up Slant Offset Y (Animation Property) `Float32`.
 - Down Slant Offset X (Animation Property) `Float32`.
